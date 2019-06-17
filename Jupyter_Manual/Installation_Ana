@@ -1,0 +1,62 @@
+Download: ==================================== 
+Download Anaconda from this link: https://www.continuum.io/downloads
+ ==================================== 
+Install:
+ ==================================== 
+For Python 3.6 version 
+------------------------------------ 
+$ sudo bash Anaconda3-4.3.0-Linux-x86_64.sh
+------------------------------------- 
+For Python 2.7 version 
+------------------------------------ 
+$ sudo bash Anaconda2-4.3.0-Linux-x86_64.sh 
+===================================== 
+
+
+Run 
+===================================== 
+Run Navigator 
+$ anaconda-navigator
+--------------------------------- 
+Run Spyder IDE  
+$ spyder
+-------------------------------- 
+Run Jupyter Notebook 
+$ jupyter-notebook
+
+
+
+##########################################
+for anaconda 2 :
+
+export PATH=~/anaconda2/bin:$PATH
+
+for anaconda 3 :
+
+export PATH=~/anaconda3/bin:$PATH
+
+for anaconda 4 :
+
+Use the Anaconda Prompt
+
+and then
+
+conda --version
+#########################################
+If you have installed Anaconda but are not able to load the correct versions of python and ipython, or if you see conda: command not found when trying to use conda, this may be an issue with your PATH environment variable. At the prompt, type:
+
+export PATH=~/anaconda/bin:$PATH
+
+#################################
+remove Anaconda:
+sudo rm -rf ~/anaconda2
+###############
+update 
+
+conda update conda
+############################
+
+jupyter notebook
+
+
+############
