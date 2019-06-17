@@ -65,6 +65,13 @@ If so, you can use pip to upgrade pip to the latest version:
 Upgrade pip, and then try installing Jupyter again:
 
     sudo -H pip install jupyter
+    
+If that does not work try:
+
+    sudo apt-get remove ipython
+    pip install --ignore-installed pyzmq
+
+
 
 
 
