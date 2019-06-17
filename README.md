@@ -72,7 +72,11 @@ If that does not work try:
     pip install --ignore-installed pyzmq
 
 
+Step 3 — Running Jupyter Notebook
 
+You now have everything you need to run Jupyter Notebook! To run it, execute the following command:
+
+    jupyter notebook
 
 
 
