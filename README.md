@@ -1,9 +1,7 @@
 # MirDoku
 
+Based on: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jupyter-notebook-to-run-ipython-on-ubuntu-16-04
 
-sudo apt-get remove ipython
-
-pip3 install --ignore-installed pyzmq
 
 Step 1 — Installing Python 2.7 and Pip
 
@@ -40,3 +38,34 @@ Output
 pip 8.1.1 from /usr/lib/python2.7/dist-packages (python 2.7)
 
 Similarly depending on your version of pip, the output might be slightly different. 
+
+
+Step 2 — Installing Ipython and Jupyter Notebook
+
+In this section we will install Ipython and Jupyter Notebook.
+
+First, install Ipython:
+
+    sudo apt-get -y install ipython ipython-notebook
+
+Now we can move on to installing Jupyter Notebook:
+
+    sudo -H pip install jupyter
+
+Depending on what version of pip is in the Ubuntu apt-get repository, you might get the following error when trying to install Jupyter:
+
+Output
+You are using pip version 8.1.1, however version 8.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+If so, you can use pip to upgrade pip to the latest version:
+
+    sudo -H pip install --upgrade pip
+
+Upgrade pip, and then try installing Jupyter again:
+
+    sudo -H pip install jupyter
+
+
+
+
